@@ -1,0 +1,10 @@
+package com.fashionblog.DTO.request;
+
+import lombok.*;
+
+@Builder @AllArgsConstructor @NoArgsConstructor
+@Getter @Setter
+public class UserLoginRequest {
+    private String email;
+    private String password;
+}
